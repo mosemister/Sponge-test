@@ -19,7 +19,7 @@ jobs:
           java-version: '16'
           distribution: 'adopt'
       - name: Make gradle executable
-        run: chmod -x ./gradlew
+        run: chmod +x ./gradlew
       - name: Build Sponge with Gradle
         run: ./gradlew build
       - uses: actions/upload-artifact@v2
