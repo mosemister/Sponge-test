@@ -22,12 +22,12 @@ sponge {
     }
     plugin("testsponge") {
         displayName("Testsponge")
-        entrypoint("com.github.lukamon24.testsponge.Testsponge")
+        entrypoint("com.github.lukamon24.testsponge.TestSponge")
         description("Testing out sponge with gradle Minecraft-dev Plugin for IJ")
         links {
-            homepage("github.com/Lukamon24")
-            // source("https://spongepowered.org/source")
-            // issues("https://spongepowered.org/issues")
+            homepage("https://github.com/Lukamon24/Sponge-test")
+            source("https://github.com/Lukamon24/Sponge-test")
+            issues("https://github.com/Lukamon24/Sponge-test/issues")
         }
         contributor("Lukamon24") {
             description("Author")
@@ -39,7 +39,7 @@ sponge {
     }
 }
 
-val javaTarget = 8 // Sponge targets a minimum of Java 8
+val javaTarget = 16 // Sponge targets a minimum of Java 8
 java {
     sourceCompatibility = JavaVersion.toVersion(javaTarget)
     targetCompatibility = JavaVersion.toVersion(javaTarget)
