@@ -11,7 +11,7 @@ import org.spongepowered.api.data.Keys;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.entity.living.player.gamemode.GameModes;
 
-public class fly implements CommandExecutor {
+public class Fly implements CommandExecutor {
 
     @Override
     public CommandResult execute(CommandContext context) throws CommandException {

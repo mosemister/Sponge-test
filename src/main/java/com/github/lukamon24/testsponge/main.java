@@ -13,16 +13,16 @@ import org.spongepowered.api.event.lifecycle.StoppingEngineEvent;
 import org.spongepowered.plugin.PluginContainer;
 import org.spongepowered.plugin.builtin.jvm.Plugin;
 
-import com.github.lukamon24.testsponge.commands.fly;
+import com.github.lukamon24.testsponge.commands.Fly;
 
 @Plugin("testsponge")
-public class main {
+public class Main {
 
     private final PluginContainer container;
     private final Logger logger;
 
     @Inject
-    main(final PluginContainer container, final Logger logger) {
+    Main(final PluginContainer container, final Logger logger) {
         this.container = container;
         this.logger = logger;
     }
