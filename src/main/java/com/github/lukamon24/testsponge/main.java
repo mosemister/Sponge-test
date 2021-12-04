@@ -36,7 +36,7 @@ public class Main {
     @Listener
     public void onRegisterCommands(final RegisterCommandEvent<Command.Parameterized> event) {
         //Reg cmd
-        event.register(this.container, Command.builder().executor(new fly()).permission("testsponge.fly").shortDescription(Component.text("Just a fly command!")).build(), "fly");
+        event.register(this.container, Command.builder().executor(new Fly()).permission("testsponge.fly").shortDescription(Component.text("Just a fly command!")).build(), "fly");
     }
 
     @Listener

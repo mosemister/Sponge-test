@@ -22,7 +22,7 @@ sponge {
     }
     plugin("testsponge") {
         displayName("Testsponge")
-        entrypoint("com.github.lukamon24.testsponge.main")
+        entrypoint("com.github.lukamon24.testsponge.Main")
         description("Testing out sponge with gradle Minecraft-dev Plugin for IJ")
         links {
             homepage("https://github.com/Lukamon24/Sponge-test")
